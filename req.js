@@ -1,4 +1,4 @@
-/*var http = require('http');
+var http = require('http');
 var qs = require('querystring');
  
 var formOutput = '<html><body>'
@@ -57,4 +57,4 @@ http.createServer(function (request, response) {
     }
 }).listen(serverPort);
  
-console.log('Server running at localhost:' + serverPort);*/
+console.log('Server running at localhost:' + serverPort);
